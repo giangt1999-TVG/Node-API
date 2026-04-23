@@ -1,0 +1,25 @@
+{
+  "name": "node-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giangt1999-TVG/Node-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/giangt1999-TVG/Node-API/issues"
+  },
+  "homepage": "https://github.com/giangt1999-TVG/Node-API#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
