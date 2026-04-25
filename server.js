@@ -12,7 +12,8 @@ app.listen(3000, (req, res) => {
 });
 
 mongoose.set("strictQuery", false);
-mongoose.connect('mongodb+srv://giangt1999_db_user:BOUVTvQZXBHNKGIo@giangtongapi.qq09u5c.mongodb.net/?appName=GiangTongAPI')
+
+mongoose.connect('connect string to monggo')
 .then(() => {
     console.log('Connect mongo database');
 }).catch((error) => {
